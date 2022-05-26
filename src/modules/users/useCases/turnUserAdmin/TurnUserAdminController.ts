@@ -1,6 +1,6 @@
-import e, { Request, Response } from "express";
+import { Request, Response } from "express";
 
-import { TurnUserAdminUseCase, IRequest } from "./TurnUserAdminUseCase";
+import { TurnUserAdminUseCase } from "./TurnUserAdminUseCase";
 
 class TurnUserAdminController {
   constructor(private turnUserAdminUseCase: TurnUserAdminUseCase) {}
